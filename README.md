@@ -35,6 +35,23 @@ OSTRTA fills this security gap with an **adversarial "assume-malicious" analysis
 
 ---
 
+## Demo
+
+![OSTRTA Logo](demos/logo.png)
+![OSTRTA Demo](demos/demo.gif)
+
+*OSTRTA detecting Base64-obfuscated credential theft in a "Weather Skill"*
+
+**To generate this demo yourself:**
+```bash
+brew install vhs  # Install VHS (https://github.com/charmbracelet/vhs)
+vhs demos/demo.tape
+```
+
+See [demos/README.md](demos/README.md) for details.
+
+---
+
 ## Quick Start
 
 ### 1. Load the Skill
